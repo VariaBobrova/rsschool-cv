@@ -10,7 +10,8 @@
 
 ***
 ### Summary
-After 10 years as a graphic and interface designer I'm ready for new challenges as a developer. Currently working toward the goal of having a career that combines design and development skills.
+Hi! I'm Varia Bobrova, Ukrainian-based junior frontend developer with a design background.
+After 10 years in graphic and interface design I'm ready for new challenges. Currently working toward the goal of having a career that combines design and development skills.
 
 ***
 
@@ -39,8 +40,11 @@ function travelChessboard(s) {
 * **Saint Petersburg State University of Telecommunications**   
 _Engineer's degree_
 
-* **CS50 Introduction to Computer Science**
+* **CS50 at Harvard**  
+_Introduction to Computer Science_
 
+* **RS School**  
+_JS/Front-end. Stage 0_
 ***
 
 ### English
