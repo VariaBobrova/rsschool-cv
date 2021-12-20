@@ -44,4 +44,4 @@ _Engineer's degree_
 ***
 
 ### English
-* B2 (Upper Intermedite)
+* B2 (Upper Intermediate)
