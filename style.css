@@ -1,0 +1,259 @@
+@media (max-width: 768px) {
+  .section {
+    width: 10 0%;
+  }
+}
+
+* {
+  line-height: 32px;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #000;
+}
+
+a {
+  color: #ff00ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #880088;
+}
+
+h1 {
+  font-family: "Bitter", serif;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 74px;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h2::before {
+  content: "// ";
+}
+
+ol {
+  list-style: none;
+  counter-reset: counter;
+}
+
+ol li {
+  counter-increment: counter;
+}
+
+ol li::before {
+  content: "0" counter(counter) "  ";
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+}
+
+li {
+  list-style-type: none;
+}
+
+code {
+  padding: 0px;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.main {
+  background-color: #fff;
+  padding: 94px 140px 40px 140px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  padding: 16px 0;
+  display: flex;
+  justify-content: right;
+}
+
+.footer {
+  color: #fff;
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.profile h3 {
+  font-weight: 300;
+  font-size: 30px;
+  white-space: nowrap;
+  margin-bottom: 40px;
+}
+
+.photo {
+  position: relative;
+}
+
+.photo pre {
+  font-family: Bitter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 340px;
+  line-height: 218px;
+  color: #e5e5e5;
+}
+
+.quotes {
+  mix-blend-mode: multiply;
+  z-index: 1;
+  height: 300px;
+  position: absolute;
+  top: 10px;
+  right: -5px;
+}
+
+.pic {
+  height: 250px;
+  width: 250px;
+  display: inline;
+  position: absolute;
+  top: -28px;
+  right: 112px;
+}
+
+.pic img {
+  width: 250px;
+  height: 250px;
+}
+
+.divider {
+  color: #e5e5e5;
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 0.6em;
+  margin-bottom: 32px;
+  overflow: hidden;
+  max-width: 1060px;
+}
+
+.contacts {
+  font-size: 20px;
+}
+
+.summary {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.education ul li p {
+  line-height: 23px;
+}
+
+.education ul li {
+  font-weight: 500;
+  margin-bottom: 21px;
+}
+
+.code {
+  display: flex;
+  justify-content: left;
+  padding-top: 83px;
+}
+
+.code ol {
+  margin-right: 20px;
+}
+
+.code ol li::before {
+  color: #c4c4c4;
+}
+
+.code pre {
+  line-height: 30px;
+}
+
+ul.nav {
+  width: 643px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.nav li {
+  display: inline;
+}
+
+ul.nav li a::before {
+  content: "// ";
+}
+
+.light-italic {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.wide {
+  width: 505px;
+  margin-bottom: 32px;
+}
+
+.narrow {
+  width: 355px;
+  padding-right: 50px;
+  margin-bottom: 32px;
+}
+
+.skills ol {
+  padding-left: 0;
+}
+
+ol li.pink::before {
+  color: #ff00ff;
+}
+
+.pink {
+  color: #ff00ff;
+}
+
+.light {
+  font-weight: 300;
+  line-height: inherit;
+  color: #c4c4c4;
+  font-style: normal;
+}
+
+.black {
+  color: #000;
+}
+
+.condenced {
+  letter-spacing: -0.1em;
+}
+
+.cat pre {
+  font-family: Ubuntu;
+  color: #c4c4c4;
+  font-size: 24px;
+  line-height: 10px;
+}
+
+.cat p {
+  padding-top: 12px;
+}
+
+.rss-logo img {
+  width: 100px;
+  height: 36px;
+}
